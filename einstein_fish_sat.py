@@ -111,12 +111,7 @@ def solve_fish():
 
   if status == cp_model.FEASIBLE:
     people = [brit, swede, dane, norwegian, german]
-    water_drinker = [
-        p for p in people if solver.Value(p) == solver.Value(water)
-    ][0]
-    fish_owner = [
-        p for p in people if solver.Value(p) == solver.Value(fish)
-    ][0]
+    fish_owner = [p for p in people if solver.Value(p) == solver.Value(fish)][0]
     print('The', fish_owner.Name(), 'owns the fish')
   else:
     print('No solutions were found.')
