@@ -3,7 +3,7 @@ Einstein's fish riddle SAT solver
 
 # Riddle 
 
-"""
+```
 Einstein's riddle
 The situation
   There are 5 houses in five different colors.
@@ -27,4 +27,4 @@ Hints
   The German smokes Prince
   The Norwegian lives next to the blue house
   The man who smokes blend has a neighbor who drinks water
-"""
+```
